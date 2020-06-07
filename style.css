@@ -56,17 +56,12 @@ h2 {
 #header {
 	z-index: 1000;
 	width: 100%;
-	/*margin-top: -150px;*/
 	padding: 15px 0 20px 0;
-	/*background-color: #4DB6AC;*/
 	color: #212121;
-	/*color: white;*/
 	position: fixed;
 	text-align: right;
 	left: 50%;
-	/*box-shadow: 0px 1px 15px #616161;*/
 	transform: translateX(-50%);
-	/*text-shadow: 2px 1px 3px rgba(0,0,0,0.3);*/
 	transition: top 1s ease-in-out, background-color 0.3s, box-shadow 0.3s, color 0.3s;
 }
 #linklist {
@@ -108,34 +103,43 @@ h2 {
 	transform: scaleX(1);
 }
 #mainmessage {
-	/*height: 650px;*/
-	height: 90vh;
+	height: 100vh;
 	padding: 0 10% 4% 10%;
 	overflow: hidden;
-	/*background-color: #E0F2F1;*/
 	color: #00897B;
-	/*background-image: url('images/covermain.jpg');*/
-	/*background-size: cover;*/
 	background-position: top;
 }
 #hiimsid {
-	display: inline-block;
-	width: 30%;
-	text-align: right;
-	/*float: right;*/
-	padding-top: 200px;
+	margin-top: 200px;
 	text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
 }
 #message {
-	display: inline-block;
-	width: 30%;
-	float: right;
 	padding-top: 150px;
 	text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
 	/*padding-left: 25%;*/
 }
+#sidenavbar {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0.5em;
+}
+#softwaredeveloper {
+	color: #d3a46f;
+}
+.list-group-side-nav .list-group-item {
+	font-size: 20px;
+	background-color: transparent;
+	border: 0px;
+	transition: color 0.3s;
+}
+
+.list-group-side-nav .list-group-item.active {
+	color: #26A69A;
+	border: 0px;
+}
+
 .blue {
-	color: #4DB6AC;
+	color: #26A69A;
 }
 .lightblue {
 	color: #B2DFDB;
@@ -158,16 +162,19 @@ h2 {
 	/*color: #212121;*/
 	color: white;
 }
+.contentsection {
+	/* box-shadow: 0 -1px 8px rgba(0,0,0,0.16); */
+	background-color: white;
+}
 #section2 {
 	/*background-color: white;*/
-	padding: 100px 25% 100px 25%;
-	box-shadow: 0 -1px 8px rgba(0,0,0,0.16);
+	/* padding: 100px 25% 100px 25%;
+	box-shadow: 0 -1px 8px rgba(0,0,0,0.16); */
 	/*height: 600px;*/
 }
 #section3 {
-	overflow: hidden;
-	background-color: white;
-	padding: 100px 25% 120px 25%;
+	/* overflow: hidden; */
+	/* padding: 100px 25% 120px 25%; */
 	/*box-shadow: 0 -1px 8px rgba(0,0,0,0.16);*/
 	/*height: 500px;*/
 }
