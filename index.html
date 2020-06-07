@@ -147,7 +147,7 @@
 	});
 	window.sr = ScrollReveal({duration : 1000});
 	sr.reveal('#hiimsid', {origin : 'left', delay : 200});
-	sr.reveal('#messagep', {origin : 'right', delay : 500});
+	sr.reveal('#messagep', {origin : 'right', delay : 800});
 	sr.reveal('.circlelines', 100);
 	sr.reveal('#movedown2', {delay : 600});
 	sr.reveal('#sidenavbarimagediv', {delay : 300});
@@ -156,13 +156,8 @@
 	// sr.reveal('#section2', {viewFactor : 0.25, reset : true})
 	$("#movedown").click(function() {
 	    $('html, body').animate({
-	        scrollTop: $("#section2").offset().top
+	        scrollTop: $("#rest").offset().top
 	    }, 700);
-	});
-	$("#movedown2").click(function() {
-	    $('html, body').animate({
-	        scrollTop: $("#section3").offset().top
-	    }, 1000);
 	});
 </script>
 </html>

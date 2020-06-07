@@ -143,6 +143,7 @@ a:hover {
 }
 #softwaredeveloper {
 	color: #d3a46f;
+	/* could also make the color light purple #a275a7 */
 }
 .list-group-side-nav .list-group-item {
 	font-size: 20px;
@@ -153,6 +154,11 @@ a:hover {
 
 .list-group-side-nav .list-group-item.active {
 	color: #26A69A;
+	border: 0px;
+}
+
+.list-group-side-nav .list-group-item:hover:not(.active) {
+	color: #a4a4a4;
 	border: 0px;
 }
 
