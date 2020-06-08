@@ -28,8 +28,8 @@ h3 {
 	margin-bottom: 35px;
 }
 h5 {
-  color: #a275a7;
-  font-size: 18px;
+  /* color: #a275a7; */
+  /* font-size: 18px; */
   /* font-style: italic; */
 }
 a {
@@ -146,7 +146,7 @@ a:hover {
 	position: sticky;
 	top: 1em;
 }
-#softwaredeveloper {
+.goldtext {
 	color: #d3a46f;
 	/* could also make the color light purple #a275a7 */
 }
@@ -172,10 +172,10 @@ a:hover {
   transition: border-color 0.3s;
   margin-bottom: 40px;
 }
-/* 
+
 .exp:hover {
 	border-color: #26A69A;
-} */
+}
 
 .blue {
 	color: #26A69A;
