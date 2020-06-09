@@ -130,7 +130,6 @@ a:hover {
 	padding: 0 10% 4% 10%;
 	overflow: hidden;
 	color: #00897B;
-	background-clip: border-box;
 	/* background-position: center -450px;
 	background-size: 1800px;
 	background-repeat: no-repeat;
