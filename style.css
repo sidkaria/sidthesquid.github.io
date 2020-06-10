@@ -9,7 +9,7 @@ body {
 p {
 	font-size: 18px;
 	line-height: 30px;
-	color: #616161;
+	color: #808080;
 }
 ul {
 	padding: 0;
@@ -125,12 +125,19 @@ a:hover {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
+.iconimage {
+	opacity: 0.2;
+	transition: opacity 0.3s;
+}
+.iconimage:hover {
+	opacity: 0.3;
+}
 #mainmessage {
 	height: 100vh;
 	padding: 0 10% 4% 10%;
 	overflow: hidden;
 	color: #00897B;
-	/* background-position: center -450px;
+	/* background-position: center -450px; 
 	background-size: 1800px;
 	background-repeat: no-repeat;
 	background-image: url('images/covernew_animated.webp'); */

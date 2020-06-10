@@ -19,11 +19,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#sidenavbarlist" data-offset="100">
-	<ul id="toplinks" class="fixed-top text-right p-3">
-		<li><a href="#">Github</a></li>
-		<li><a href="#">Linkedin</a></li>
-	</ul>
-	<div id="mainmessage" class="parallax-window" data-parallax="scroll" data-image-src="images/covernew_3_animated_opacity.webp" data-speed="0.4" data-position="center -450px">
+	<!-- <ul id="toplinks" class="fixed-top text-right p-3">
+		<li><a href="#"><img class="iconimage" height="30px" width="30px" src="images/icons/github.svg"/></a></li>
+		<li><a href="#"><img class="iconimage" height="30px" width="30px" src="images/icons/linkedin.svg"/></a></li>
+		<li><a href="#"><img class="iconimage" height="30px" width="30px" src="images/icons/spotify.svg"/></a></li>
+	</ul> -->
+	<div id="mainmessage" class="parallax-window" data-parallax="scroll" data-image-src="images/covernew_3_animated_opacity_crop_2.webp" data-speed="0.4" data-position="center top">
 		<div id="hiimsid" class="row">
 			<div id="imsidp" class="col-md-6">
 				<span class="heavier blue">Hi! I'm Sid.</span>
@@ -107,12 +108,12 @@
 					<div class="exp pl-3">
 						<h4>Crowd.ai <a target="_blank" class="codelink" href="https://github.com/sidthesquid/crowd.ai">[code]</a></h4>
 						<p>This was part of a 5G/AI innovation class at Berkeley, but turned out to be quite an amazing product demo. Essentially a real-time Waze for foot-traffic. It uses location data and light geospatial analysis to give accurate location crowd sizes and popularity (for people who use the app). I coded it end-to-end with React Native, Google Cloud Functions, and Firebase.</p>
-          </div>
-          <div class="exp pl-3">
+					</div>
+					<div class="exp pl-3">
 						<h4>TRON project for CalHacks (won sponsor prize) <a target="_blank" class="codelink" href="https://github.com/sidthesquid/tronbois">[code]</a></h4>
 						<p>My two other friends and I teamed up to create a secure IoT based, and blockchain incentivized data submission platform with a mobile interface (lot of buzzwords there, I know). I worked on the mobile with native Android and helped out with our node.js backend, while others worked with TRON's blockchain software and raspberry pi IoT data.</p>
-          </div>
-          <div class="exp pl-3">
+					</div>
+					<div class="exp pl-3">
 						<h4>Chargo <a target="_blank" class="codelink" href="https://play.google.com/store/apps/details?id=us.chargo.chargo&hl=en_US">[play store link]</a></h4>
 						<p>My first pursued startup, and the result of the month-long program in summer 2016 called MIT Launch (now LaunchX). It was a way for people walking around cities to pick up chargers at restaurants, use them for free within a couple hours, and return them to another Chargo location. We did make some cool progress on the app and launched a test run back in Cambridge with restaurants.</p>
 					</div>
@@ -169,6 +170,7 @@
 		});
 	}  // End if
 	});
+	
 	window.sr = ScrollReveal({duration : 1000});
 	sr.reveal('#hiimsid', {origin : 'left', delay : 200});
 	sr.reveal('#messagep', {origin : 'right', delay : 800});
