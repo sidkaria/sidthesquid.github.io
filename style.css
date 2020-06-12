@@ -25,7 +25,7 @@ h2 {
 	margin-top: 35px;
 }
 h3 {
-	margin-bottom: 35px;
+	margin-bottom: 40px;
 }
 h5 {
   /* color: #a275a7; */
@@ -35,9 +35,10 @@ h5 {
 a {
 	color: #26A69A;
 	transition: color 0.2s;
+	text-decoration: underline;
 }
 a:hover {
-	text-decoration: none;
+	/* text-decoration: none; */
 	color: #00796B;
 }
 .codelink {
@@ -160,7 +161,20 @@ a:hover {
 	color: #d3a46f;
 	/* could also make the color light purple #a275a7 */
 }
+#education {
+	color: #808080;
+}
+/* #education:before {
+	background-image: url('images/icons/education.png');
+	height: 46px;
+	width: 46px;
+	top: 0;
+	left: 10px;
+	content: " ";
+	position: absolute;
+} */
 .list-group-side-nav .list-group-item {
+	text-decoration: none;
 	font-size: 20px;
 	background-color: transparent;
 	border: 0px;
@@ -179,8 +193,8 @@ a:hover {
 
 .exp {
 	border-left: 2px solid #B2DFDB;
-  transition: border-color 0.3s;
-  margin-bottom: 40px;
+	transition: border-color 0.3s;
+	margin-bottom: 40px;
 }
 
 .exp:hover {
@@ -211,10 +225,16 @@ a:hover {
 	/*color: #212121;*/
 	color: white;
 }
+#eduicon {
+	opacity: 0.6;
+}
 .contentsection {
 	/* box-shadow: 0 -1px 8px rgba(0,0,0,0.16); */
 	background-color: white;
 }
+/* .contentsection > :not(h3) {
+	margin-left: 20px;
+} */
 #section1 {
 	/* background-color: rgb(202, 202, 202); */
 	/* border-radius: 10px; */
