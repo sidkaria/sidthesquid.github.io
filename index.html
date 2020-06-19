@@ -2,6 +2,11 @@
 <html>
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115987385-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -11,104 +16,194 @@
 	  gtag('config', 'UA-115987385-1');
 	</script>
 	<title>Siddharth Karia</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<body>
-	<div id="header" class="nav-down">
-		<div id="links">
-			<ul id="linklist">
-				<!-- <li><div class="line"></div></li> -->
-				<li id="firstlink"><a id="firstlinklink" class="navbarlink" href="index.html">Siddharth Karia</a></li>
-				<li><a class="navbarlink" href="index.html">home</a></li>
-				<li><a class="navbarlink" href="about.html">about</a></li>
-				<li><a class="navbarlink" href="resume.html">resume</a></li>
-				<li><a class="navbarlink" href="other.html">other</a></li>
-				<li><a class="navbarlink" href="contact.html">contact</a></li>
-				<!-- <li><div class="line"></div></li> --> 
-			</ul>
+<body data-spy="scroll" data-target="#sidenavbarlist" data-offset="100">
+	<div id="mainmessage" class="parallax-window" data-parallax="scroll" data-image-src="images/covernew_3_animated_opacity_crop_2.webp" data-speed="0.4" data-position="center top">
+		<div id="hiimsid" class="row">
+			<div id="imsidp" class="col-md-6">
+				<span class="heavier blue">Hi! I'm Sid.</span>
+			</div>
 		</div>
-	</div>
-<!-- here ends the header -->
-
-	<div id="mainmessage" class="parallax-window" data-parallax="scroll" data-image-src="images/covermain-min.jpg" data-speed="0.4" data-position="-50px">
-		<div id="hiimsid">
-			<span class="heavier blue">Hi! I'm Sid.</span>
-		</div>
-		<div id="message">
-			<div id="messagep">
+		<div id="message" class="row">
+			<div id="messagep" class="col-md-4">
 				<p id="imastudent">I'm a student at UC Berkeley who loves developing, designing, and creating great products and content.
 				</p>
 				<a id="movedown"><i class="arrow down"></i></a>
-				<!-- <p>Check out my professional life <a class="link" href="about.html">here</a>. I've been a technical and creative part of a
-					few startups, and I've started some of my own ventures</a> as well. I have a strong focus on Android, web, and backend development, with a passion for design.
-				</p>
-				<p class="homepara">I'm currently an alumni of <a class="link" target="_blank" href="http://launchx.com/">MIT Launch</a> hoping to continue to build my own startup,
-					<a class="link" target="_blank" href="http://www.chargo.co">Chargo</a>. 
-					Also a member of UC Berkeley's ASUC Office of the CTO, I work on the Android team to help build our campus
-					wide official mobile application, Berkeley Mobile.
-				</p>
-				<p>I'm quite into music as well! My songs and covers can be found in the "other" section. I'm into design and prototyping, too - for starters, I did make this website from scratch. :)</p> -->
 			</div>
 		</div>
 	</div>
 
-	<div id="section2">
-		<p>I'm an undergrad studying CS at UC Berkeley who is a self taught software developer with a keen sense of design. Please check out my profile <a class="link" href="about.html">here</a> and reach out to me to learn more about me. I am eager to be part of a team that wants to build the next killer software product!
-		</p>
-		<p>I have a strong focus on Android, web, and back-end development, with a passion for design.</p>
-		<ul class="circles">
-			<li class="circlelines" style="background-image: url('images/android.png'); background-size: 100px; background-position: center; background-repeat: no-repeat;"></li>
-			<li class="circlelines" style="background-image: url('images/html.png'); background-size: 100px; background-position: center; background-repeat: no-repeat;"></li>
-			<li class="circlelines" style="background-image: url('images/backend.png'); background-size: 100px; background-position: center; background-repeat: no-repeat;"></li>
-			<li class="circlelines" style="background-image: url('images/imac.png'); background-size: 100px; background-position: center; background-repeat: no-repeat;"></li>
-		</ul>
-		<div class="arrowdowndiv"><a id="movedown2"><i class="arrow down pcolor"></i></a></div>
-	</div>
+	<div id="software" class="container-fluid">
+		<div id="software-row" class="row">
+			<div id="sidenavbarcol" class="col-md-4 col-lg-3 py-5"> <!-- this is column stuff for the side nav bar -->
+				<div id="sidenavbar" class="row justify-content-center">
+					<div id="sidenavbarimagediv" class="col-6 col-lg-8"> <!-- this is column stuff for the image on the side-->
+						<img class="img-fluid rounded-circle" src="images/HeadShotFsquare.jpg" />
+					</div>
 
-	<div id="section3">
-		<div id="headshotdiv"><img id="me" src="images/headshot2.jpg" /></div>
-		<div id="headshotmessage">
-			<p>While balancing school work, personal work, music, and exercise, I try my hardest to stay happy and have a disciplined work ethic at the same time. I'm very passionate about working on projects that make a difference and solve real problems. Find out everything about me on the <a class="link" href="about.html">about page</a>.</p>
-			<p>I'm currently looking for software internships or projects to work on. If I'm someone you're looking for, you can get in touch with me on the contact page!</p>
+					<div class="w-100 mb-4"></div>
+										
+					<div id="sidenavbarlist" class="list-group list-group-side-nav">
+						<a class="list-group-item list-group-item-action" href="#upto">What I'm up to</a>
+						<a class="list-group-item list-group-item-action" href="#wasupto">What I've been up to</a>
+						<a class="list-group-item list-group-item-action" href="#coolprojects">Projects</a>
+						<!-- <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a> -->
+					</div>
+				</div>
+			</div>
+			<div id="columncontent" class="col-md-8 col-lg-9 bg-white py-5">
+				<div class="contentsection container p-3" id="section1">
+					<h3 id="softwaredeveloper" class="goldtext">I'm a developer, designer, product enthusiast, and entrepreneur.|</h3>
+				</div>
+				<div class="contentsection container p-3" id="section2">
+					<h3 id="upto">What I'm up to right now</h3>
+					<div id="educationdiv" class="mb-4 pb-1 ml-md-3">
+						<img id="eduicon" class="d-inline-block mr-2 align-middle" src="images/icons/education.png" height="40px" width="40px"/>
+						<h4 id="education" class="d-inline align-middle">I'm a rising senior and Regents' Scholar studying EECS at UC Berkeley</h4>
+					</div>
+					<!-- <img class="d-inline-block" src="images/icons/berkeley.png" height="46px" width="46px" /> -->
+					<div class="exp pl-3 ml-md-3">
+						<h4>Software Engineer Intern @ <a target="_blank" href="uber.com">Uber</a></h4>
+						<h5>Summer 2020</h5>
+						<p>This year, I'm a backend engineer on the Core Services team, working on the new user platform that handles all user traffic and data. The architecture is powered by microservices and hundreds of components of a major scalabale system, and I'm going through it all.</p>
+					</div>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Product Manager and Android developer @ <a target="_blank" href="https://asuc.org/berkeley-mobile/">Berkeley Mobile</a></h4>
+						<h5>Freshman year till now</h5>
+						<p>As co-product manager and project lead, I've been spearheading a year-long redesign of the most popular UC Berkeley campus mobile app, with a team of 15+ engineers and designers. Handling aspects from sprint planning to writing product specs and helping out engineers and designers when needed.</p>
+						<p>As Android developer, I helped migrate our app's framework to a cleaner, MVC, and eventually MVVM, style architecture. I've also worked on several features of the app, like search, maps, etc, introducing better user experiences and improving code quality.</p>
+						<div class="row no-gutters">
+							<div class="col-lg-5">
+								<img style="opacity: 0.85;" class="img-fluid" src="images/berkeley mobile 2.png" />
+							</div>
+						</div>
+					</div>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Co-founder @ <a target="_blank" href="amni.io">Amni</a></h4>
+						<h5>2020</h5>
+						<p>Amni is the second major pivot of our team-of-four's startup. Accepted to Berkeley Skydeck's hotdesk 2020, we are building a savings/investment platform in the streaming media space. As co-founder, engineer, and product owner, I am leading the front-end development of our product.</p>
+					</div>
+					
+				</div>
+
+				<div class="contentsection container p-3" id="section3">
+					<h3 id="wasupto">What I've been up to</h3>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Software Engineer Intern @ <a target="_blank" href="https://uber.com">Uber</a></h4>
+						<h5>Summer 2019</h5>
+						<p>This was my first summer at Uber, and I was on the Driver Experience team working as a mobile engineer. I worked on a new rating and tipping screen in the actual Uber Android app (native code), while at the same time spearheading the use of a mobile framework that drastically improved code quality and efficiency, and paved the way for a shift in Uber's android architecture.</p>
+					</div>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Software Engineer Intern @ <a target="_blank" href="https://eyelevel.">Eyelevel.ai</a></h4>
+						<h5>Summer 2018</h5>
+						<p>Eyelevel.ai is Berkeley Skydeck incubated, and they brought me on as their first software intern back in 2018 to implement their entire web application and dashboard. I learned JavaScript, React, and Redux over a weekend (although, still had a lot to learn), and got to work. With a great mentor teaching me code practices and clean design, I was able to finish a significant portion of the fully-dynamic, interactive, full-stack web application over a summer.</p>
+					</div>
+					
+				</div>
+				<div class="contentsection container p-3" id="section3">
+					<h3 id="coolprojects">Some cool things I've made</h3>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Altruist, our first pivot <a target="_blank" class="codelink" href="https://github.com/sidthesquid/altruist-mobile">[code]</a></h4>
+						<p>The Amni team's first inspiration and furthest progress in a venture. We engineered a demo/MVP for an end-to-end volunteer service hour reporting platform; our initial technical push being a mobile app. Uses React Native, Django backend, GCP.</p>
+					</div>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Crowd.ai <a target="_blank" class="codelink" href="https://github.com/sidthesquid/crowd.ai">[code]</a></h4>
+						<p>This was part of a 5G/AI innovation class at Berkeley, but turned out to be quite an amazing product demo. Essentially a real-time Waze for foot-traffic. It uses location data and light geospatial analysis to give accurate location crowd sizes and popularity (for people who use the app). I coded it end-to-end with React Native, Google Cloud Functions, and Firebase.</p>
+					</div>
+					<div class="exp pl-3 ml-md-3">
+						<h4>TRON project for CalHacks (we won the sponsor prize) <a target="_blank" class="codelink" href="https://github.com/sidthesquid/tronbois">[code]</a></h4>
+						<p>My two other friends and I teamed up to create a secure IoT based, and blockchain incentivized data submission platform with a mobile interface (lot of buzzwords there, I know). I worked on the mobile with native Android and helped out with our node.js backend, while others worked with TRON's blockchain software and raspberry pi IoT data.</p>
+					</div>
+					<div class="exp pl-3 ml-md-3">
+						<h4>Chargo <a target="_blank" class="codelink" href="https://play.google.com/store/apps/details?id=us.chargo.chargo&hl=en_US">[play store link]</a></h4>
+						<p>My first pursued startup, and the result of the month-long program in summer 2016 called MIT Launch (now LaunchX). It was a way for people walking around cities to pick up chargers at restaurants, use them for free within a couple hours, and return them to another Chargo location. We did make some cool progress on the app and launched a test run back in Cambridge with restaurants.</p>
+						<div class="row no-gutters">
+							<div class="col-lg-5">
+								<img style="opacity: 0.85;" class="img-fluid" src="images/chargo.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<footer>
-		<ul style="margin: 0; margin-bottom: 50px;">
-			<li class="footerli"><a class="footerlink" href="contact.html">contact me</li>
-			<li class="footerli"><a class="footerlink" target="_blank" href="http://www.linkedin.com/in/siddharth-karia/">linkedin</li>
-			<li class="footerli"><a class="footerlink" href="resume.html">resume</li>
+	<!-- <div id="music" class="container-fluid text-center bg-dark p-5">
+		<h3 id="musician" class="lightblue">I also make music!</h3>
+		<div id="music-row" class="row justify-content-left">
+			<div id="musiccol2" class="col-md-4 text-center py-5">
+				<img src="images/hesitate.jpg" class="img-fluid" />
+			</div>
+			<div id="musiccol1" class="col-md-4 text-center py-5">
+				<img src="images/reflect.jpg" class="img-fluid" />
+			</div>
+			<div id="musiccol1" class="col-md-4 text-center py-5">
+
+			</div>
+		</div>
+	</div> -->
+
+	<footer class="container-fluid py-4">
+		<ul id="toplinks" class="text-center p-3">
+			<li><a target="_blank" href="mailto:sid.karia@gmail.com"><img class="iconimage" height="30px" width="30px" src="images/icons/email.svg"/></a></li>
+			<li><a target="_blank" href="https://github.com/sidthesquid"><img class="iconimage" height="30px" width="30px" src="images/icons/github.svg"/></a></li>
+			<li><a target="_blank" href="https://www.linkedin.com/in/siddharth-karia/"><img class="iconimage" height="30px" width="30px" src="images/icons/linkedin.svg"/></a></li>
+			<li><a target="_blank" href="http://instagram.com/thesidkaria"><img class="iconimage" height="30px" width="30px" src="images/icons/instagram.svg"/></a></li>
+			<li><a target="_blank" href="https://open.spotify.com/artist/4Bwfpdtc6zG41L2GyIKCnE"><img class="iconimage" height="30px" width="30px" src="images/icons/spotify.svg"/></a></li>
 		</ul>
-		<div id="copyright">
-			&copy; 2018 <a class="footerlink" href="http://www.siddharthkaria.com">Siddharth Karia</a>. All rights reserved.
+		<ul class="row justify-content-center mb-4">
+			<!-- <li class="col-sm-2 text-center"><a class="footerlink" href="contact.html">contact me</li> -->
+			<!-- <li class="col-sm-2 text-center"><a class="footerlink" target="_blank" href="http://www.linkedin.com/in/siddharth-karia/">linkedin</li> -->
+			<li class="col-sm-2 text-center"><a class="footerlink" href="files/Siddharth Karia - Resume.pdf">resume</li>
+		</ul>
+		<div id="copyright" class="col text-center">
+			&copy; 2020 <a class="footerlink" href="http://www.siddharthkaria.com">Siddharth Karia</a>. All rights reserved.
 		</div>
 	</footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/changeheader.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="js/jquery.scrollTo.min.js"></script>
 <script src="js\parallax.js-1.5.0\parallax.js"></script>
 <script type="text/javascript">
+	$("#sidenavbarlist .list-group-item").on('click', function(event) {
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		// Prevent default anchor click behavior
+		event.preventDefault();
+
+		// Store hash
+		var hash = this.hash;
+
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({
+		scrollTop: $(hash).offset().top
+		}, 400, function(){
+
+		// Add hash (#) to URL when done scrolling (default click behavior)
+		window.location.hash = hash;
+		});
+	}  // End if
+	});
+	
 	window.sr = ScrollReveal({duration : 1000});
 	sr.reveal('#hiimsid', {origin : 'left', delay : 200});
 	sr.reveal('#messagep', {origin : 'right', delay : 800});
 	sr.reveal('.circlelines', 100);
-	sr.reveal('#movedown2', {delay : 600})
+	sr.reveal('#movedown2', {delay : 600});
+	sr.reveal('#sidenavbarimagediv', {delay : 300});
 	sr.reveal('#headshotdiv', {origin : 'left', delay : 100, viewFactor : 0.4});
 	sr.reveal('#headshotmessage', {origin : 'right', delay : 500, viewFactor : 0.4});
 	// sr.reveal('#section2', {viewFactor : 0.25, reset : true})
 	$("#movedown").click(function() {
 	    $('html, body').animate({
-	        scrollTop: $("#section2").offset().top
-	    }, 1000);
-	});
-	$("#movedown2").click(function() {
-	    $('html, body').animate({
-	        scrollTop: $("#section3").offset().top
-	    }, 1000);
+	        scrollTop: $("#software").offset().top
+	    }, 700);
 	});
 </script>
 </html>
