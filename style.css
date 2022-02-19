@@ -24,8 +24,10 @@ li + li {
 h2 {
 	margin-top: 35px;
 }
-h3 {
+h3:not(#softwaredeveloper) {
 	margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eeeeee;
 }
 h5 {
   /* color: #a275a7; */
@@ -145,11 +147,11 @@ a:hover {
 }
 #hiimsid {
 	margin-top: 200px;
-	text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+	text-shadow: 2px 1px 3px rgba(0,0,0,0.2);
 }
 #message {
 	padding-top: 150px;
-	text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+	text-shadow: 2px 1px 3px rgba(0,0,0,0.2);
 	/*padding-left: 25%;*/
 }
 #sidenavbarcol {
@@ -177,17 +179,28 @@ a:hover {
 	content: " ";
 	position: absolute;
 } */
+
 .list-group-side-nav .list-group-item {
-	text-decoration: none;
-	font-size: 20px;
-	background-color: transparent;
-	border: 0px;
-	transition: color 0.3s;
+  border: 0px;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.list-group-side-nav .list-group-item.active {
+.list-group-side-nav .list-group-item span {
+	text-decoration: none;
+	font-size: 20px;
+  background-image: linear-gradient(#26A69A, #26A69A);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+	transition: color 0.3s, background-size 0.3s ease-in-out;
+}
+
+.list-group-side-nav .list-group-item.active span {
 	color: #26A69A;
 	border: 0px;
+  background-size: 100% 0.1em;
 }
 
 .list-group-side-nav .list-group-item:hover:not(.active) {
